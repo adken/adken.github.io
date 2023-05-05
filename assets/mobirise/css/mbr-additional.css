@@ -720,13 +720,16 @@ section.lazy-placeholder:after {
 .cid-tAEwFzGqHy .mbr-text,
 .cid-tAEwFzGqHy .mbr-section-btn,
 .cid-tAEwFzGqHy .social-row {
-  color: #fafafa;
+  color: #ffffff;
 }
 .cid-tAEwFzGqHy .mbr-section-title {
   color: #fafafa;
 }
+.cid-tAEwFzGqHy .mbr-section-subtitle {
+  color: #ffffff;
+}
 .cid-tAEwV5AlA9 {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
 }
