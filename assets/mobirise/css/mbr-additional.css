@@ -721,6 +721,7 @@ section.lazy-placeholder:after {
 .cid-tAEwFzGqHy .mbr-section-btn,
 .cid-tAEwFzGqHy .social-row {
   color: #ffffff;
+  text-align: center;
 }
 .cid-tAEwFzGqHy .mbr-section-title {
   color: #fafafa;
@@ -729,7 +730,7 @@ section.lazy-placeholder:after {
   color: #ffffff;
 }
 .cid-tAEwV5AlA9 {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
 }
