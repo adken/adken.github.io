@@ -36,7 +36,7 @@ function About({ go }) {
   return (
     <>
       <section className="hero">
-        <p className="hero-label">PhD Researcher · SDL AI & ML for Remote Sensing · JSC</p>
+        <p className="hero-label">PhD Researcher · SDL AI and ML for Remote Sensing · JSC</p>
         <h1>AI for<br /><em>Earth Observation</em></h1>
         <p className="hero-bio">
           I am a PhD researcher in the SDL for AI and Machine Learning for Remote Sensing at the
@@ -77,7 +77,7 @@ function About({ go }) {
 
       <div className="affil-row">
         {[
-          "SDL AI & ML for Remote Sensing · JSC · Helmholtz",
+          "SDL AI and ML for Remote Sensing · JSC · Helmholtz",
           "Háskóli Íslands · University of Iceland",
           "FAST-EO · ESA Phi-Lab",
           "Embed2Scale · Horizon Europe",
@@ -174,7 +174,7 @@ function Projects() {
   const projects = [
     { icon: "📡", name: "FAST-EO · TerraMind", desc: "ESA Phi-Lab funded project developing geospatial foundation models for Earth observation. JSC is a consortium member. TerraMind is evaluated in the GeoFM benchmark.", link: "https://www.fast-eo.eu/", linkLabel: "fast-eo.eu ↗" },
     { icon: "🌐", name: "Embed2Scale", desc: "EU Horizon Europe project using AI embeddings for EO data federation and neural compression. Directly related to the lossy compression review and crop yield work.", link: "https://embed2scale.eu/", linkLabel: "embed2scale.eu ↗" },
-    { icon: "🏔", name: "SDL AI & ML for Remote Sensing · JSC", desc: "The Simulation and Data Lab at Jülich Supercomputing Centre conducting interdisciplinary research at the intersection of remote sensing and large-scale AI with supercomputing and quantum computing.", link: "https://www.fz-juelich.de/en/jsc/about-us/structure/simulation-and-data-labs/sdl-ai-ml-remote-sensing", linkLabel: "fz-juelich.de ↗" },
+    { icon: "🏔", name: "SDL AI and ML for Remote Sensing · JSC", desc: "The Simulation and Data Lab at Jülich Supercomputing Centre conducting interdisciplinary research at the intersection of remote sensing and large-scale AI with supercomputing and quantum computing.", link: "https://www.fz-juelich.de/en/jsc/about-us/structure/simulation-and-data-labs/sdl-ai-ml-remote-sensing", linkLabel: "fz-juelich.de ↗" },
     { icon: "🧊", name: "SimDataLab RS · IHPC Iceland", desc: "The Icelandic HPC community's Simulation and Data Lab for Remote Sensing, jointly operated with JSC. The institutional home of the PhD enrollment at the University of Iceland.", link: "https://www.ihpc.is/labs/simulation-and-data-lab-remote-sensing", linkLabel: "ihpc.is ↗" },
   ];
 
