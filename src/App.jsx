@@ -185,6 +185,7 @@ function Projects() {
         <p>Research projects and institutional affiliations</p>
       </div>
       <div className="card-grid two-col">
+        {projects.map((p) => (
           <div className="proj-card" key={p.name}>
             <div className="proj-icon">{p.icon}</div>
             <div className="proj-name">{p.name}</div>
@@ -196,6 +197,7 @@ function Projects() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </>
   );
