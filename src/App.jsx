@@ -39,9 +39,9 @@ function About({ go }) {
         <p className="hero-label">PhD Researcher · SDL AI and ML for Remote Sensing · JSC</p>
         <h1>AI for<br /><em>Earth Observation</em></h1>
         <p className="hero-bio">
-          I am a PhD researcher in the SDL for AI and Machine Learning for Remote Sensing at the
-          Jülich Supercomputing Centre (JSC), Forschungszentrum Jülich — led by Prof. Dr. Gabriele
-          Cavallaro — and enrolled at the University of Iceland (Háskóli Íslands) through the
+          I am a PhD researcher in the  Simulation and Data Lab (SDL) for AI and Machine Learning for Remote Sensing at the
+          Jülich Supercomputing Centre (JSC), Forschungszentrum Jülich led by Prof. Dr. Gabriele
+          Cavallaro and enrolled at the University of Iceland (Háskóli Íslands) through the
           joint SDL for Remote Sensing between JSC and the Icelandic HPC community.
         </p>
         <p className="hero-bio">
@@ -51,9 +51,9 @@ function About({ go }) {
           and Geomatics from Makerere University, Uganda.
         </p>
         <div className="hero-links">
-          <a className="pill primary" href="https://github.com/adken" target="_blank" rel="noreferrer">GitHub</a>
-          <a className="pill" href="https://www.linkedin.com/in/kennedy-adriko-345170124" target="_blank" rel="noreferrer">LinkedIn</a>
           <a className="pill" href="https://orcid.org/0009-0002-4374-300X" target="_blank" rel="noreferrer">ORCID</a>
+          <a className="pill" href="https://www.linkedin.com/in/kennedy-adriko-345170124" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a className="pill primary" href="https://github.com/adken" target="_blank" rel="noreferrer">GitHub</a>
           <a className="pill" href="mailto:k.adriko@fz-juelich.de">Email</a>
         </div>
       </section>
@@ -62,9 +62,9 @@ function About({ go }) {
         <div className="section-header"><h2>Research interests</h2></div>
         <div className="card-grid">
           {[
-            { icon: "🗜", title: "AI compression", desc: "Efficient and scalable lossy neural compression of geospatial data for storage, transmission, and analytics at planetary scale." },
-            { icon: "🛰", title: "Geospatial foundation models", desc: "Benchmarking and evaluation of large pretrained EO models (GeoFMs) for downstream agricultural and environmental tasks." },
-            { icon: "⚡", title: "HPC for EO", desc: "Scalable geospatial ML pipelines on high-performance computing infrastructure for processing multi-year Sentinel archives." },
+            { icon: "🗜", title: "AI Compression", desc: "Efficient and scalable lossy neural compression of geospatial data for storage, transmission, and analytics at planetary scale." },
+            { icon: "🛰", title: "Geospatial Foundation Models", desc: "Benchmarking and evaluation of large pretrained EO models (GeoFMs) for downstream agricultural and environmental tasks." },
+            { icon: "⚡", title: "HPC for EO", desc: "Scalable geospatial ML pipelines on high-performance computing infrastructure for processing multi-modal and multi-temporal EO archives." },
           ].map((c) => (
             <div className="proj-card" key={c.title}>
               <div className="proj-icon">{c.icon}</div>
