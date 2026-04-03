@@ -53,7 +53,7 @@ function About({ go }) {
         <div className="hero-links">
           <a className="pill" href="https://orcid.org/0009-0002-4374-300X" target="_blank" rel="noreferrer">ORCID</a>
           <a className="pill" href="https://www.linkedin.com/in/kennedy-adriko-345170124" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a className="pill primary" href="https://github.com/adken" target="_blank" rel="noreferrer">GitHub</a>
+          <a className="pill" href="https://github.com/adken" target="_blank" rel="noreferrer">GitHub</a>
           <a className="pill" href="mailto:k.adriko@fz-juelich.de">Email</a>
         </div>
       </section>
