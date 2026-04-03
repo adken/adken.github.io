@@ -46,8 +46,7 @@ function About({ go }) {
         </p>
         <p className="hero-bio">
           My research focuses on efficient and scalable AI compression and data fusion for Earth
-          observation with HPC. I hold an Erasmus Mundus MSc in Digital Earth (Geodata Science)
-          from the University of Salzburg and Université Bretagne Sud, and a BSc in Land Surveying
+          observation with HPC. I hold an Erasmus Mundus MSc in Digital Earth (Geodata Science), and a BSc in Land Surveying
           and Geomatics from Makerere University, Uganda.
         </p>
         <div className="hero-links">
